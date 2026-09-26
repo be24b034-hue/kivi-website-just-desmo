@@ -1,0 +1,14 @@
+{
+  "name": "kivi-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kivi voice typing website",
+  "scripts": {
+    "dev": "node preview.cjs",
+    "start": "node preview.cjs",
+    "build": "node verify.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

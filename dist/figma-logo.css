@@ -1,0 +1,8 @@
+/* Figma 11:3 / 67:886, with original dot asset 82:1175 and 82:1177. */
+.brand>.figma-wordmark,header .brand>.figma-wordmark,.demo-header .brand>.figma-wordmark,.site-footer .brand>.figma-wordmark{position:relative;display:inline-block;width:70px;height:51px;flex-shrink:0;font-family:'Cormorant Garamond',Georgia,serif;font-size:42px;font-weight:400;line-height:normal;letter-spacing:normal;color:#121712}
+.brand .figma-wordmark .logo-dot{position:absolute;display:block;width:7px;height:7px;min-width:7px;max-width:none;padding:0;border:0;border-radius:0;background:none;box-shadow:none;filter:none;mix-blend-mode:normal;transform:none;transition:none;object-fit:contain}
+.brand .figma-wordmark .dot-one{left:23px;top:13px}.brand .figma-wordmark .dot-two{left:53px;top:12px}
+header .brand,.site-footer .brand{background:linear-gradient(90deg,#f7f8f1,#eaf3e0);padding:3px 15px;border-radius:5px;gap:8px}
+header .brand small,.site-footer .brand small{color:#3b5943;opacity:1;margin-left:0;font-size:11px}
+header .brand:hover .logo-dot{transform:none}
+@media(max-width:760px){header .brand,.site-footer .brand{padding:2px 12px}.brand>.figma-wordmark,header .brand>.figma-wordmark{font-size:42px}}

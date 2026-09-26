@@ -1,0 +1,14 @@
+.destination-heading{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font:10px/1.5 var(--sans);letter-spacing:.6px;color:#5d5870;border-bottom:1px solid #897f9d33;padding-bottom:13px;margin-bottom:17px}.destination-heading span:last-child{letter-spacing:0}.result [data-result]:after{content:'';display:inline-block;width:2px;height:1em;background:currentColor;margin-left:3px;vertical-align:-2px}
+.word-reveal{display:inline-block;transform-origin:left bottom;will-change:auto}
+.demo-panel,.document-window{transform-style:preserve-3d;backface-visibility:hidden}
+.playground,.companion{perspective:1400px}
+.button{position:relative;isolation:isolate;overflow:hidden}
+.button:after{content:'';position:absolute;inset:-80% auto -80% -60%;width:30%;background:linear-gradient(90deg,transparent,#ffffff35,transparent);transform:rotate(25deg);transition:left .75s cubic-bezier(.2,.7,.2,1);pointer-events:none;z-index:-1}
+.button:hover:after{left:130%}
+.language-picker button{transition:transform .45s cubic-bezier(.2,.8,.2,1),background .35s,color .35s,box-shadow .35s}
+.language-picker button.active{transform:translateY(-4px);box-shadow:0 9px 0 #4a393114}
+.photo-frame{transition:box-shadow .7s}
+.cinematic-scene:hover .photo-frame{box-shadow:0 0 0 2px #f1d3a89c,0 28px 75px #001c2566}
+.faq-list details{transition:border-color .3s}.faq-list details[open]{border-color:#936649}
+.motion-paused .button:after{transition:none}
+@media(prefers-reduced-motion:reduce){.button:after{display:none}.word-reveal{transform:none!important;opacity:1!important}}
